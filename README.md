@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://viniciusap13.github.io/html-css/exercícios/ex016/cor03.html">Executar o exercício 16
+<a href="https://viniciusap13.github.io/html-css/exercícios/ex016/cor03.html">Executar o exercício 16</a>
