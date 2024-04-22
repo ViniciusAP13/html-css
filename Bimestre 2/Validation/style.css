@@ -9,11 +9,10 @@ div h1 {
 div#formulario {
     background-color: white;
     border: 2px solid black;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 4px 4px 1px;
     border-radius: 10px;
     width: 50%;
     margin: 40vh auto auto auto;
     padding: 0px 2% 2% 2%;
     font-family: cursive;
 }
-
