@@ -1,0 +1,14 @@
+15/04/2024
+Revisão: Métodos de Entrada - Javascript
+
+Em JS os métodos de entrada, geralmente, envolvem interações com o usuário ou a obtenção de dados. Exemplos:
+
+Método Prompt: Usado para exibir uma caixa de diálogo e receber dados que serão inseridos pelo usuário;
+
+Método Confirm: Usado para exibir uma caixa de diálogo na qual o usuário deverá escolher através da interação de um botão "OK" ou "Cancelar";
+
+Método Input: Através deste método é possível capturar a entrada de dados por meio de elementos de input html, por meio do Javascript.
+
+Hoje, entraremos em funções.
+As funções em Javascript são blocos de código que ao serem invocados ou chamados, são executados a qualquer momento dentro do nosso código.
+
