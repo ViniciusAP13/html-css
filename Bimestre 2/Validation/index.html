@@ -10,12 +10,12 @@
 <body>
     <div id="formulario">
         <h1>Formulário</h1>
-        <form action="#.php" method="get">
-            <label for="nome">Login</label>
-            <input type="text" id="login" placeholder="Insira seu usuário">
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" placeholder="Insira sua senha:">
-            <input type="button" value="ENVIAR" onclick="autenticar()">
+        <form action="#.php" method="get" class="botao">
+            <label for="nome">Login:</label>
+            <input type="text" id="login" placeholder="Insira seu usuário" class="input_login">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Insira sua senha:" class="input_login"> <br>
+            <input type="button" value="ENVIAR" onclick="autenticar()" class="btn_enviar">
         </form>
         <p id="mensagem"></p>
     </div>
