@@ -1,0 +1,46 @@
+#perguntas {
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    overflow: visible;
+    padding: 35px 0px 0px 0px;
+    font-size: 1.7em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#p1,#p2,#p3,#p4,#p5
+{
+    background-color: white;
+    height: 30px;
+    width: 98%;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    transition: 0.5s;
+    z-index: 5;
+    /* border-right: 2px solid; */
+}
+#p2 {
+    /* display: none; */
+    z-index: 4;
+}
+
+#p3 {
+    /* display: none; */
+    z-index: 3;
+}
+
+#p4 {
+    /* display: none; */
+    z-index: 2;
+}
+
+#p5 {
+    /* display: none; */
+    z-index: 1;
+}
+
