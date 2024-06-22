@@ -1,18 +1,33 @@
+body {
+    background-color: rgb(152, 251, 152);
+    font-family: cursive;
+}
+
 #perguntas {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
+    display: flex;
     position: relative;
     overflow: visible;
     padding: 35px 0px 0px 0px;
     font-size: 1.7em;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-#p1,#p2,#p3,#p4,#p5
-{
-    background-color: white;
-    height: 30px;
-    width: 98%;
+
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8,
+#p9,
+#p10 {
+    background-color: rgb(152, 251, 152);
+    height: 35px;
+    width: 100%;
     margin: 0px;
     align-items: center;
     justify-content: center;
@@ -21,26 +36,71 @@
     left: 0%;
     top: 0px;
     transition: 0.5s;
-    z-index: 5;
+    z-index: 10;
     /* border-right: 2px solid; */
 }
+
 #p2 {
     /* display: none; */
-    z-index: 4;
+    z-index: 9;
 }
 
 #p3 {
     /* display: none; */
-    z-index: 3;
+    z-index: 8;
 }
 
 #p4 {
     /* display: none; */
-    z-index: 2;
+    z-index: 7;
 }
 
 #p5 {
     /* display: none; */
+    z-index: 6;
+}
+
+#p6 {
+    /* display: none; */
+    z-index: 5;
+}
+
+#p7 {
+    /* display: none; */
+    z-index: 4;
+}
+
+#p8 {
+    /* display: none; */
+    z-index: 3;
+}
+
+#p9 {
+    /* display: none; */
+    z-index: 2;
+}
+
+#p10 {
+    /* display: none; */
     z-index: 1;
 }
 
+#yea, #naw {
+    width: 49%;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    font: 1.5em cursive;
+    border-radius: 20px;
+}
+
+
+#retry {
+    width: 100%;
+    padding: 10px;
+    opacity: 0%;
+    font: 1.5em cursive;
+    transition: 1s;
+    transition-timing-function: linear;
+    border-radius: 20px;
+}
