@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'undertale';
+    src: url("fontes/MonsterFriendBack.otf");
+}
+
+body {
+    background-image: url('imgs/floresta.jpg');
+    color: white;
+    font-family: 'undertale';
+}
+
+#luta{
+    background-color: black;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 5px solid white;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+input[type="reset"], input[type="button"] {
+    font-family: 'undertale';
+}
+
+input[type="reset"] {
+    display: none;
+    margin: auto;
+}
